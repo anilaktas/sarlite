@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/logoic.png" />
+    <title>DC-DC Converter</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="index.html#home">anasayfa</a>
+            <a href="index.html#about">hakkımızda</a>
+            <a href="index.html#products">ürünler</a>
+            <a href="index.html#contact">iletişim</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="arama yapın...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+    </header><br><br><br><br><br><br><br>
+
+    <div class="container">
+        <div class="boxx">
+            <div class="images"> 
+                <div class="img-holder active">
+                    <img id="imageBox" src="DC-DCConverterdocument/product-1.png">
+                </div>                
+            </div>
+            <div class="basic-info">
+                <h1>DC-DC Converter</h1>
+                <hr class="gradient">
+            </div>
+            <div class="description">
+                <ul class="features">
+                    <li><i class="fa fa-chevron-circle-right"></i>Input Voltaj Aralığı 22-33V</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Output Voltaj 12V</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Iout (max.) 20A</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Output Power (W) 240W</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Verimlilik >%97</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Yüksek Çıkış Gücü ve Verimliliği</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Small Solution Size</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Giriş Filtresi Nedeniyle Çok Düşük EMI ve Giriş Dalgalanması</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>PWM Technology</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Çıkış Aşırı Gerilim Koruması</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Aşırı Sıcaklık Koruması</li>
+                    <li><i class="fa fa-chevron-circle-right"></i>Aşırı Akım Koruması</li>
+                </ul>
+                <div class="basic-info">
+                    <h1>Datasheet &nbsp;<i class="fas fa-file-pdf"style='color:#bd7332'></i></h1>
+                    <hr class="gradient">
+                    <div class="options">
+                        <a href="DC-DCConverterdocument/Sarlite_DC DC Converter.pdf" target="_blank">Datasheet</a>
+                        &nbsp;
+                        &nbsp;
+                       
+                    </div>
+                </div>               
+            </div>
+
+        </div>
+    </div>
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://www.facebook.com/sarnikon/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/sarnikon_elektr" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/sarnikon/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/company/sarni%CC%87kon-metal-ve-elektroni%CC%87k-san-ti%CC%87c-ltd-%C5%9Fti%CC%87/?originalSubdomain=tr"
+                class="fab fa-linkedin"></a>
+            <a href="https://www.youtube.com/user/sarnikonmetal" class="fab fa-youtube"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html#home">anasayfa</a>
+            <a href="index.html#about">hakkımızda</a>
+            <a href="index.html#products">ürünler</a>
+            <a href="index.html#contact">iletişim</a>
+        </div>
+
+        <div class="credit">created by <span>solis tech</span> all rights reserved</div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+    <script>
+        function myFunction(smallImg) {
+            var fullImh = document.getElementById("imageBox");
+            fullImh.src = smallImg.src;
+        }
+    </script>
+
+</body>
+
+</html>
